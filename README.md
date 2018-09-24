@@ -10,4 +10,4 @@
 
 5. Create simple tooltip for other links like: Hide ADs, Go Fullscreen, Change Video, etc etc-- to tell user detail abot the function, like for "Go Fullscreen" - tell user if it doesn't work, they can always use F11 button to fullscreen it, and after going fullscreen they can press "ESC" anytime to exit it.
 
-6. 
+6. Create separate "UIX" for Mobile (small displays) but not Tablets and other large screens, then setup an auto-redirector to send mobile visitors to their specific URLs, for Apple devices- and others that doesn't support player playback, display ADs then redirect to the video sources.
