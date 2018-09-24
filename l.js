@@ -11,11 +11,11 @@
     pauseButton: document.querySelector('#pause'),
     src: [
       {
-        src: 'video.php',
+        src: 'http://nitul.net/x/video.php',
         type: 'video/mp4'
       },
       {
-        src: 'video.php',
+        src: 'http://nitul.net/x/video.php',
         type: 'video/webm;codecs="vp8, vorbis"'
       }
     ],
