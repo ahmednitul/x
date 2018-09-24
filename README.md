@@ -11,3 +11,5 @@
 5. Create simple tooltip for other links like: Hide ADs, Go Fullscreen, Change Video, etc etc-- to tell user detail abot the function, like for "Go Fullscreen" - tell user if it doesn't work, they can always use F11 button to fullscreen it, and after going fullscreen they can press "ESC" anytime to exit it.
 
 6. Create separate "UIX" for Mobile (small displays) but not Tablets and other large screens, then setup an auto-redirector to send mobile visitors to their specific URLs, for Apple devices- and others that doesn't support player playback, display ADs then redirect to the video sources.
+
+7. Place roll-out and roll-in effect enabled sticky ajax ADs Unit on middle-rightside (where currently displaying LiveChat) and move live-chat to bottom-right (ovrtlaying Sponsored By text, as thats not important and live-chat only displays when "Online") --- place skyscrapper (160x60) and doubble ractangle-box (350x350) or (250x250) ads on the right-side--- and make it roll-out every x seconds and upon closing, it rolls-in but then again re-rollout after x seconds.
