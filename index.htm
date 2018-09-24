@@ -44,7 +44,6 @@
     }
 
     #video_controls {
-	  display: none;
 	  z-index: 2;
       position: absolute;
       left: 47.5%;
@@ -229,15 +228,15 @@ function closeFullscreen() {
 </head>
 <body>
   <div id="container">
-    <video id="background_video" loop autoplay muted></video>
+    <video id="background_video" loop autoplay></video>
     <div id="video_cover"></div>
     <div id="overlay"></div>
 	
     <section id="main_content">
       <div id="head">
         <h1>Project X</h1>
-        <p class="sub_head">an experimental idea/project by <a href="http://nitul.net" target="_blank"><u><b><font color="white">@N</font></b></u></a> that offers 24/7 high quality porn streaming live...</p>
-        <p class="info">(one of the video should start playing automatedly without sound (muted), <font color="white">to enable audio, click the volume icon below or </font>... <a class="tooltip" href="index.htm" onmouseover="tooltip.pop(this, '#tip3', {sticky:true, position:0, cssClass:'no-padding'})"><font color="white"><b>HERE!</b></a></font>)</p>
+        <p class="sub_head">an experimental idea/project by <a href="http://nitul.net" target="_blank"><u><b><font color="white">@N</font></b></u></a> that offers 24/7 high quality porn streaming live!</p>
+        <p class="info">(to keep the BETA services simple, we would be streaming a live video... <font color="white">to get started, please click the</font>... <a class="tooltip" href="#" onmouseover="tooltip.pop(this, '#tip3', {sticky:true, position:0, cssClass:'no-padding'})"><font color="white"><b>PLAY</b></a> button below...</font>)</p>
       </div>
 
 	  
@@ -248,7 +247,11 @@ function closeFullscreen() {
 <ilayer src="http://www.adpeepshosted.com/adpeeps.php?bf=showad&amp;uid=102708&amp;bmode=off&amp;bzone=default&amp;bsize=728x90&amp;btype=4&amp;bpos=default&amp;brefresh=10&amp;btarget=_blank" frameborder="0" width="728" height="90"></ilayer>
 </iframe>
 </p>
-	<div id="video_controls">
+	  
+      <div id="links">
+        <a href="#">Learn More</a>
+        <a href="#" onclick="hideX();">Hide TEXT/ADs</a>
+    <div id="video_controls">
       <span id="play">
         <img src="play.png">
       </span>
@@ -256,11 +259,7 @@ function closeFullscreen() {
         <img src="pause.png">
       </span>
     </div>
-	
-      <div id="links">
-        <a href="#">Learn More</a>
-        <a href="#" onclick="hideX();">Hide TEXT/ADs</a>
-  	    <a href="index.htm"><img src="volume.png"></a>
+  	    <a href="#" onclick="openFullscreen();"></a>
 		<a href="#" onclick="openFullscreen();">Go Fullscreen</a>
 		<a href="#" onClick="window.location.reload()">Change Video</a>
       </div>
