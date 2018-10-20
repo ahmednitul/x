@@ -11,11 +11,11 @@
     pauseButton: document.querySelector('#pause'),
     src: [
       {
-        src: 'video.php',
+        src: 'v.html',
         type: 'video/mp4'
       },
       {
-        src: 'video.php',
+        src: 'v.html',
         type: 'video/webm;codecs="vp8, vorbis"'
       }
     ],
