@@ -19,6 +19,6 @@ $links = array(
 
 );
 
-$randomRedirection = $links[array_rand($links)];
-header("Location: $randomRedirection");
+$rr = $links[array_rand($links)];
+header("Location: $rr");
 ?>
