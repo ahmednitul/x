@@ -20,4 +20,6 @@
 
 9. Redirect unSupported browsers like IE/Edge and test others-- redirect them to a Splash ADs page- that redirects to supported player enaabled "UIX" use 3rd party players like JWPlayer etc etc.
 
+10. Mobile/Smartphone: and any other smaller window changes menu-lebels with icons, use responsive method so if the window is less than x pixel then changes texts to icons.
+
 @ VIP/Full Access: Write a code that checks if the current viewers IP address is listed or not, if NOT then display an overlaying full-page screen/window after 'x' seconds, blurring the background playback-- offering users to subscribe, upon which- add their IP to the lists, and if the IP is detected then redirect them to index.shtml which has no ADs (including iStripper) and use diffrent video-playlist which has selected very High Quality contents and streams from CDN networks and/or premium servicees like Dropbox.
