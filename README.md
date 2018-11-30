@@ -1,5 +1,7 @@
 ## 2do...
 
+@ CHANNELs: create a new template based on the original but rename 'learn more...' to 'fullscreen +/-' button and instead of full-screen, show "SWITCH CHANNEL" ... on-hover, display other channels offered; also the main index randomly redirects between all available channels - show channel-logo on top with 5% margin/space then rotate between left/center/right and have 5% margin/space on both left/right so its placed perfectltly.
+
 0. PAID/FREE - enable javascript countdown on page-load and display element 'x' after x seconds passed (usually 30/60 minutes) which lock-out the screen and show upgrade/login/trial options, upon upgrades-- show them diffrent version under protected folder 'vip' which have no-ads and does not lock the screen, simple membership/access management module using .htaccess - create/delete user/pass using API.
 
 1. Instead of FB-Only, install multiple Social Network icons.
